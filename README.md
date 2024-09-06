@@ -41,13 +41,24 @@ SharedArrayBuffer and Atomics are particularly important for:
 
 ### Web Audio API Enhancements
 
-The secure context provided by HTTPS and Cross-Origin Isolation also enables advanced features of the Web Audio API:
+The secure context provided by HTTPS and Cross-Origin Isolation enables advanced features of the Web Audio API:
 
 - `AudioWorklet`: Allows for custom audio processing with high performance and low latency
+  - Runs audio processing code in a separate thread, ensuring smooth audio output
+  - Enables implementation of custom DSP algorithms directly in JavaScript
+  - Provides sample-accurate scheduling and processing
+  - Allows for more complex audio nodes that can be integrated into the Web Audio API graph
 - Full-precision audio sample manipulation
 - Consistent and precise audio timing
 - Access to raw audio data for advanced audio analysis and synthesis
 - Ability to implement complex audio effects and filters in real-time
+
+AudioWorklets are particularly powerful for:
+- Creating custom synthesizers
+- Implementing advanced audio effects (e.g., convolution reverb, pitch shifting)
+- Real-time audio analysis and visualization
+- Building audio plugins for web-based Digital Audio Workstations (DAWs)
+- Developing interactive music applications and games with sophisticated audio requirements
 
 These features are crucial for developing professional-grade audio applications, music production tools, and games with sophisticated sound design directly in the browser.
 
