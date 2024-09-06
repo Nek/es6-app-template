@@ -8,8 +8,23 @@ This project serves as a template for creating a modern JavaScript application u
 - Pure ES6 JavaScript
 - No bundler required
 - Uses native ES modules
-- Caddy server for local development
+- Caddy server for local development with HTTPS and Cross-Origin Isolation (COI)
 - Live reloading for rapid development
+- Access to powerful client-side APIs enabled by HTTPS and COI
+
+## Why HTTPS and Cross-Origin Isolation?
+
+1. **HTTPS**: Enables secure communication and is required for many modern web APIs.
+2. **Cross-Origin Isolation**: Allows the use of powerful APIs that require additional security guarantees.
+
+### Enabled Client-Side APIs
+
+With HTTPS and Cross-Origin Isolation, you can use the following powerful APIs:
+
+- `SharedArrayBuffer`
+- `performance.measureUserAgentSpecificMemory()`
+- High-resolution timer APIs
+- `navigator.hardwareConcurrency` with full precision
 
 ## Getting Started
 
