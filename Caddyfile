@@ -1,4 +1,4 @@
-:8080 {
+:1234 {
 	root * html
 	file_server
 	encode gzip
