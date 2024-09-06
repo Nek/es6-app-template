@@ -19,7 +19,7 @@ This project serves as a template for creating a modern JavaScript application u
    ```
    sudo ./dev.sh
    ```
-   (Sudo is required because Caddy needs to bind to port 1234)
+   (Sudo is required because Caddy needs to work with system root certificates to enable HTTPS on localhost)
 4. Open your browser and navigate to `https://localhost:1234`
 
 Note: The `dev.sh` script starts both the Caddy server and a live reload server for a smoother development experience.
