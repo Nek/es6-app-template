@@ -14,12 +14,15 @@ This project serves as a template for creating a modern JavaScript application u
 ## Getting Started
 
 1. Clone this repository
-2. Ensure you have [Caddy](https://caddyserver.com/) installed
-3. Run the Caddy server:
+2. Ensure you have [Caddy](https://caddyserver.com/) and [Node.js](https://nodejs.org/) installed
+3. Run the development script with sudo:
    ```
-   caddy run
+   sudo ./dev.sh
    ```
+   (Sudo is required because Caddy needs to bind to port 1234)
 4. Open your browser and navigate to `https://localhost:1234`
+
+Note: The `dev.sh` script starts both the Caddy server and a live reload server for a smoother development experience.
 
 ## Project Structure
 
