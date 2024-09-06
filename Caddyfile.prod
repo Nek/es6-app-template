@@ -1,0 +1,12 @@
+:1234 {
+	root * html
+
+	header {
+		# Enable COI
+		Cross-Origin-Embedder-Policy: "require-corp"
+		Cross-Origin-Opener-Policy: "same-origin"
+	}
+
+	encode gzip
+	file_server
+}
