@@ -51,7 +51,13 @@ Simply edit the files in the `html/` directory. The live reloading feature will 
 
 ## Deployment
 
-To deploy this application, you only need to serve the contents of the `html/` directory on a web server that supports ES6 modules.
+To deploy this application, you can use the `prod.sh` script, which starts the Caddy server with the production configuration:
+
+```
+./prod.sh
+```
+
+Alternatively, you can serve the contents of the `html/` directory on any web server that supports ES6 modules.
 
 ## License
 
