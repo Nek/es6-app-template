@@ -1,2 +1,4 @@
 .aider*
 .DS_Store
+*.d.mts
+*.d.mts.map
