@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
+import * as THREE from 'https://esm.sh/three@0.168.0';
 
 let scene, camera, renderer;
 let cube;
