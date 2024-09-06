@@ -1,4 +1,3 @@
-
 # ES6 App Template (No Bundler)
 
 This project serves as a template for creating a modern JavaScript application using ES6 modules without relying on a bundler.
@@ -51,13 +50,7 @@ Simply edit the files in the `html/` directory. The live reloading feature will 
 
 ## Deployment
 
-To deploy this application, you can use the `prod.sh` script, which starts the Caddy server with the production configuration:
-
-```
-./prod.sh
-```
-
-Alternatively, you can serve the contents of the `html/` directory on any web server that supports ES6 modules.
+You can use Caddy and the `Caddyfile.prod` as an inspiration.
 
 ## License
 
