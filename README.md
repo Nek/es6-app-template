@@ -25,6 +25,13 @@ With HTTPS and Cross-Origin Isolation, you can use the following powerful APIs:
 - `performance.measureUserAgentSpecificMemory()`
 - High-resolution timer APIs
 - `navigator.hardwareConcurrency` with full precision
+- `performance.now()` with microsecond precision
+- `Atomics` API for thread synchronization
+- WebAssembly threads
+- `navigator.deviceMemory` with full precision
+- `navigator.connection` with full information
+- WebRTC's `RTCPeerConnection` with full features
+- Gamepad API with low-latency polling
 
 ## Getting Started
 
