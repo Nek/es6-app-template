@@ -21,17 +21,23 @@ This project serves as a template for creating a modern JavaScript application u
 
 With HTTPS and Cross-Origin Isolation, you can use the following powerful APIs:
 
-- `SharedArrayBuffer`
+- `SharedArrayBuffer`: Enables efficient memory sharing between the main thread and Web Workers, crucial for high-performance computing and parallel processing in the browser.
+- `Atomics`: Provides atomic operations for data synchronization between threads, essential for building robust multi-threaded applications using SharedArrayBuffer.
 - `performance.measureUserAgentSpecificMemory()`
 - High-resolution timer APIs
 - `navigator.hardwareConcurrency` with full precision
 - `performance.now()` with microsecond precision
-- `Atomics` API for thread synchronization
 - WebAssembly threads
 - `navigator.deviceMemory` with full precision
 - `navigator.connection` with full information
 - WebRTC's `RTCPeerConnection` with full features
 - Gamepad API with low-latency polling
+
+SharedArrayBuffer and Atomics are particularly important for:
+- Implementing efficient parallel algorithms in JavaScript
+- Developing high-performance web applications that require intense computations
+- Creating web-based simulations or games with complex physics calculations
+- Building applications that process large amounts of data in real-time
 
 ## Getting Started
 
