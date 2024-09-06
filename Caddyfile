@@ -1,7 +1,7 @@
-:1234 {
+localhost:1234 {
+	tls internal
 	root * html
 	file_server
-	encode gzip
 	header {
 		# Enable CORS
 		Access-Control-Allow-Origin *
