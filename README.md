@@ -27,7 +27,7 @@ Enabled Client-Side APIs:
 ## Getting Started
 
 1. Clone this repository
-2. Ensure you have [Caddy](https://caddyserver.com/) and [Node.js](https://nodejs.org/) installed
+2. Ensure you have [Caddy@^2.8.4](https://caddyserver.com/) and [Node.js@^20.16.0](https://nodejs.org/) installed
 3. Run the development script with sudo:
    ```
    sudo ./dev.sh
