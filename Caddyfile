@@ -1,14 +1,15 @@
 :8080 {
-    root * html
-    file_server
-    encode gzip
-    header {
-        # Enable CORS
-        Access-Control-Allow-Origin *
-        # Disable caching for development
-        Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
-        Access-Control-Allow-Methods "POST, GET"
-        Cross-Origin-Embedder-Policy: "require-corp"
-        Cross-Origin-Opener-Policy: "same-origin"
-    }
+	root * html
+	file_server
+	encode gzip
+	header {
+		# Enable CORS
+		Access-Control-Allow-Origin *
+		# Disable caching for development
+		Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+		Access-Control-Allow-Methods "POST, GET"
+		# Enable COOP
+		Cross-Origin-Embedder-Policy: "require-corp"
+		Cross-Origin-Opener-Policy: "same-origin"
+	}
 }
