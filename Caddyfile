@@ -1,0 +1,11 @@
+:8080 {
+    root * html
+    file_server
+    encode gzip
+    header {
+        # Enable CORS
+        Access-Control-Allow-Origin *
+        # Disable caching for development
+        Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    }
+}
